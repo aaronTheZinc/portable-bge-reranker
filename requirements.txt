@@ -1,0 +1,42 @@
+# Core ML and NLP libraries
+torch>=2.0.0
+transformers>=4.35.0
+tokenizers>=0.14.0
+accelerate>=0.20.0
+
+# Web scraping and parsing
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+html5lib>=1.1
+
+# NLP and entity recognition
+spacy>=3.7.0
+# Note: You'll also need to download the model with:
+# python -m spacy download en_core_web_sm
+
+# Data processing and validation
+pydantic>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# API framework (if using HTTP endpoints)
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+
+# RunPod integration
+runpod>=1.5.0
+
+# Utility libraries
+python-dateutil>=2.8.0
+regex>=2023.0.0
+urllib3>=1.26.0
+
+# Optional: For advanced extraction models
+# sentence-transformers>=2.2.0  # Uncomment if using embeddings
+# openai>=1.0.0  # Uncomment if using OpenAI API
+# anthropic>=0.7.0  # Uncomment if using Claude API
+
+# Development and testing (optional)
+pytest>=7.0.0
+requests-mock>=1.10.0
